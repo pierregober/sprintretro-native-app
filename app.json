@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./creds/google-services.json",
+      "package": "com.sprintretro.app"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.sprintretro.app",
+      "googleServicesFile": "./creds/GoogleServices.Info.plist",
+      "supportsTablet": true
+    },
+    "name": "sprintretro-native-app",
+    "orientation": "portrait",
+    "owner": "sprintretro",
+    "platforms": ["ios", "android", "web"],
+    "slug": "sprintretro",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "userInterfaceStyle": "light",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
